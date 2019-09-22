@@ -21,16 +21,10 @@ export default {
   },
   data() {
     return {
-      appName: "P5Sketches",      
+      appName: "Grafik",      
     };
-  },
-  methods: {
-    toggleTheme: function() {
-      this.isdark = !this.isdark;
-      localStorage.setItem("isdark", this.isdark);
-      this.$vuetify.theme.dark = this.isdark;
-    }
   }
+  
 };
 </script>
 <style>
