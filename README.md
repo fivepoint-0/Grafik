@@ -1,29 +1,9 @@
-# vuetify-sketches
+# Grafik
 
-## Project setup
-```
-npm install
-```
+## New Features
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can set the theme colors for the Light and Dark theme! It saves the values in `localStorage` so if the user refreshes the page, their theme settings will remain.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Other notes
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I am going to add ongoing and new p5.JS projects, as well as many others. 
