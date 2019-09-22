@@ -1,8 +1,7 @@
 <template>
   <v-app>
-    <Toolbar :title="appName" app />
+    <Toolbar :title="title" app />
     <v-container fluid>
-      <!-- If using vue-router -->
       <router-view></router-view>
     </v-container>
   </v-app>
@@ -17,11 +16,12 @@ export default {
     Toolbar
   },
   created() {
+    let localStorageFields = ["lightPrimary", "lightSecondary", "darkPrimary", "darkSecondary", "isdark"];
     
   },
   data() {
     return {
-      appName: "Grafik",      
+      title: "Grafik"
     };
   }
   

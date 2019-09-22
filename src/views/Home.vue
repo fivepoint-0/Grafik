@@ -1,6 +1,19 @@
 <template>
+  <div>
     <div>
-        <v-btn color="primary">ok</v-btn>
-        <v-btn color="secondary">ok</v-btn>
+      <v-btn color="primary">PRIMARY</v-btn>
     </div>
+    <div>
+      <v-btn color="secondary">SECONDARY</v-btn>
+    </div>
+    <div>
+      <v-btn color="error">ERROR</v-btn>
+    </div>
+    <div>
+      <v-btn color="warning">WARNING</v-btn>
+    </div>
+    <div>
+      <v-btn color="success">SUCCESS</v-btn>
+    </div>
+  </div>
 </template>
