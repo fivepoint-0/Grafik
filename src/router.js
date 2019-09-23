@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import NeuralNetworks from './views/NeuralNetworks.vue'
-import Perceptor from './views/Perceptor.vue'
+import NeuralNetworks from './views/NeuralNetworks/NeuralNetworks.vue'
+import Perceptron from './views/NeuralNetworks/Perceptron/Perceptron.vue'
 
 Vue.use(Router)
 
@@ -29,9 +29,9 @@ export default new Router({
       component: NeuralNetworks,
       children: [
         {
-          path: 'perceptor',
-          name: 'perceptor',
-          component: Perceptor
+          path: 'Perceptron',
+          name: 'Perceptron',
+          component: Perceptron
         }
       ]
     }

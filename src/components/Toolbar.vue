@@ -19,7 +19,7 @@
             <v-list-item-title>p5.JS</v-list-item-title>
           </template>
 
-          <v-list-item link :to="{name: 'perceptor'}">
+          <v-list-item link :to="{name: 'Perceptron'}">
             <v-list-item-title>Neural Network - Perceptron</v-list-item-title>
             <v-list-item-icon>
               <v-icon>mdi-search</v-icon>

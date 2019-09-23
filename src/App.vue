@@ -16,7 +16,6 @@ export default {
     Toolbar
   },
   created() {
-    let localStorageFields = ["lightPrimary", "lightSecondary", "darkPrimary", "darkSecondary", "isdark"];
     
   },
   data() {
